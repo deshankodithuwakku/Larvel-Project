@@ -34,7 +34,7 @@
                     <td>{{ $student->contact_no }}</td>
                     <td>{{ $student->address }}</td>
                     <td>{{ $student->dob }}</td>
-                    <td><a class="btn btn-primary" href="{{route('student.edit' ,$student->id)}}">Edit</a> </td><td><a class="btn btn-primary" href="{{route('student.delete',$student->id)}}">Delete</a></td>
+                    <td><a class="btn btn-primary" href="{{route('student.edit' ,$student->id)}}">Edit</a> <a class="btn btn-primary" href="{{route('student.delete',$student->id)}}">Delete</a></td>
                 </tr>
             @endforeach
 
